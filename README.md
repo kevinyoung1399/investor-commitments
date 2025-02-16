@@ -17,6 +17,10 @@ Application to show investor commitments.
 Located in the `frontend` directory.
 
 ```bash
+# Install dependencies
+cd frontend
+npm install
+
 # Run development server
 npm run dev
 
@@ -29,8 +33,12 @@ npm run test:ui
 Located in the `backend` directory.
 
 ```bash
+# Install Poetry dependencies
+cd backend
+python3 -m poetry install
+
 # Run using Poetry
-python3 -m poetry run uvicorn main:app --reload
+python3 -m poetry run uvicorn investor_commitments_backend.main:app --reload
 
 # Run tests
 python3 -m poetry run pytest

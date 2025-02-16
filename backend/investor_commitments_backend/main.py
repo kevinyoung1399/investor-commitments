@@ -2,9 +2,9 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 import csv
 from typing import Dict
-from app.api import investors
-from app.models.investor import Base, Investor, Commitment
-from app.database import engine, SessionLocal
+from investor_commitments_backend.api import investors
+from investor_commitments_backend.models.investor import Base, Investor, Commitment
+from investor_commitments_backend.database import engine, SessionLocal
 from fastapi.middleware.cors import CORSMiddleware
 from decimal import Decimal
 

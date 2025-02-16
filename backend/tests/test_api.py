@@ -1,4 +1,4 @@
-from app.models.investor import Commitment, Investor
+from investor_commitments_backend.models.investor import Commitment, Investor
 
 
 def test_get_investors_endpoint(test_client, test_db, sample_investor_data):

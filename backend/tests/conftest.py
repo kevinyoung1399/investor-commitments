@@ -3,11 +3,11 @@ from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.pool import StaticPool
-from app.database import get_db
-from app.main import app
-from app.models.investor import Base
-from app.repositories.investor_repository import SQLAlchemyInvestorRepository
-from app.services.investor_service import InvestorService
+from investor_commitments_backend.database import get_db
+from investor_commitments_backend.main import app
+from investor_commitments_backend.models.investor import Base
+from investor_commitments_backend.repositories.investor_repository import SQLAlchemyInvestorRepository
+from investor_commitments_backend.services.investor_service import InvestorService
 
 SQLALCHEMY_TEST_DATABASE_URL = "sqlite:///:memory:"
 

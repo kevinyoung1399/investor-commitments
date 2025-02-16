@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from sqlalchemy.orm import Session
 from abc import ABC, abstractmethod
-from app.models.investor import Investor, Commitment
+from investor_commitments_backend.models.investor import Investor, Commitment
 from typing import List, Optional
 from sqlalchemy.exc import SQLAlchemyError
 

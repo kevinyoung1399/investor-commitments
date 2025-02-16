@@ -1,4 +1,4 @@
-from app.models.investor import Investor, Commitment
+from investor_commitments_backend.models.investor import Investor, Commitment
 
 def test_investor_model_creation():
     investor = Investor(

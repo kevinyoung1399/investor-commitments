@@ -29,9 +29,9 @@ coverage/
 __snapshots__/
 
 # Environment files
-.env
-.env.*
-!.env.example
+# .env
+# .env.*
+# !.env.example
 
 # Build files
 build/

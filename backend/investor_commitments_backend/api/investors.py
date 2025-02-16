@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
-from app.repositories.investor_repository import DatabaseError, SQLAlchemyInvestorRepository
-from app.services.investor_service import InvestorService
-from app.database import get_db
-from app.schemas.investor import InvestorSummary, InvestorCommitments
+from investor_commitments_backend.repositories.investor_repository import DatabaseError, SQLAlchemyInvestorRepository
+from investor_commitments_backend.services.investor_service import InvestorService
+from investor_commitments_backend.database import get_db
+from investor_commitments_backend.schemas.investor import InvestorSummary, InvestorCommitments
 
 router = APIRouter(tags=["investors"])
 

@@ -1,5 +1,5 @@
 from typing import List, Dict, Optional
-from app.repositories.investor_repository import InvestorRepository
+from investor_commitments_backend.repositories.investor_repository import InvestorRepository
 
 class InvestorService:
     """

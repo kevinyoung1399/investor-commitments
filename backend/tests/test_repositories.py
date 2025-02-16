@@ -1,4 +1,4 @@
-from app.models.investor import Commitment, Investor
+from investor_commitments_backend.models.investor import Commitment, Investor
 
 def test_get_all_investors_empty(test_repository):
     investors = test_repository.get_all_investors()
